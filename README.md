@@ -3,7 +3,7 @@
 A simple React application to help you manage your favorite recipes. 
 
 ## Purpose
-This application was built as a learning exercise for React, with a focus on self-learning. 
+this application was an exercise to learn react in a self-taught way
 
 ## Demo
 A demo version of the application is available at https://cuisine-96b26.web.app/
