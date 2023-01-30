@@ -10,13 +10,21 @@ A demo version of the application is available at https://cuisine-96b26.web.app/
 
 ## Getting Started
 1. Clone the repository:
+
 ``` git clone https://github.com/VivienHuc/cook_recipes ```
+
 2. Go to the directory:
+
 ``` cd cook_recipes ```
+
 3. Install dependencies:
+
 ``` npm install ```
+
 4. Start the application:
-``` npm start ``````
+
+``` npm start ```
+
 5. The application will be available at http://localhost:3000
 
 ## User Account
