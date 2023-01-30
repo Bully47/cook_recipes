@@ -1,0 +1,120 @@
+.recette_page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #e5e5e5;
+}
+
+.recette_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.recette_full_card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 85%;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.recette_full_card_image {
+	width: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.recette_full_card_titre {
+	font-size: 2rem;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.recette_full_card_categorie {
+	font-size: 1.5rem;
+	margin-top: 10px;
+	text-align: center;
+	color: gray;
+}
+
+.recette_full_card_username {
+	font-size: 1.5rem;
+	margin-top: 10px;
+	text-align: center;
+	color: gray;
+}
+
+.recette_full_card_ingredients_container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.recette_full_card_ingredient_tag {
+	background-color: #3498db;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.recette_full_card_ingredient_tag:hover {
+	cursor: pointer;
+}
+
+.recette_full_card_etapes_container {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+
+.recette_full_card_etapes_tag {
+	margin-bottom: 20px;
+}
+
+.recette_full_cards_buttons_group {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.blue_btn {
+	background-color: #3498db;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+}
+
+.blue_btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blue_btn:active {
+	transform: translateY(2px);
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,119 @@
+/* Conteneur global */
+.dashboard_page {
+	background-color: #e5e5e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* Conteneur de contenu */
+.dashboard_container {
+	background-color: #fafafa;
+	padding: 20px;
+	box-shadow: 0px 0px 10px #888888;
+	width: 80%;
+	min-height: 70%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	border-radius: 5px;
+}
+
+/* Titre de bienvenue */
+.dashboard_container > div:first-child {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* Email de l'utilisateur */
+.dashboard_container > div:nth-child(2) {
+	margin-bottom: 20px;
+}
+
+/* Conteneur des cartes de recettes */
+.dashboard_recettes {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* Carte de recette */
+.dashboard_recette_card {
+	width: 30%;
+	margin: 20px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+/* Effet hover sur les cartes de recettes */
+.dashboard_recette_card:hover {
+	transform: scale(1.02);
+}
+
+/* Image de la recette */
+.dashboard_recette_card_image {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+/* Titre de la recette */
+.dashboard_recette_card_titre {
+	font-weight: bold;
+	margin: 10px;
+}
+
+/* Catégorie de la recette */
+.dashboard_recette_card_categorie {
+	margin: 10px;
+	color: #aaaaaa;
+}
+
+/* Groupe de boutons */
+.dashboard_recette_card_buttons_group {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+/* Effet de surélévation et de bordure colorée sur les inputs */
+input:focus {
+	outline: none;
+	border-color: #2196f3;
+	box-shadow: 0 0 0 0.2rem rgba(33, 150, 243, 0.25);
+}
+
+.blue_btn {
+	background-color: #3498db;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+.blue_btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blue_btn:active {
+	transform: translateY(2px);
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}

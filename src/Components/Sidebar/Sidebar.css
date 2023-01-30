@@ -1,0 +1,81 @@
+/* SIDEBAR */
+.sidebar {
+    box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+	background-color: #2196f3;
+    transition: all 0.5s ease;
+    transform: translateX(-100%);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5vh;
+    border-bottom: 1px solid white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    text-align: center;
+    transition: all 0.2s ease;
+    font-size: 2em;
+}
+
+nav a:hover {
+    background-color: var(--bleu_hover);
+    transform: scale(1.03);
+    font-weight: bold;
+}
+
+.sidebar.open {
+    transform: translateX(0%);
+}
+
+.open_button {
+    position: absolute;
+    margin-left: 96vw;
+    margin-top: 2vh;
+    display: block²;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 0px;
+    -webkit-transition: all .3s ease, -webkit-transform .2s ease;
+    transition: all .3s ease, transform .2s ease;
+    background: -webkit-linear-gradient(top, transparent 0%, transparent 20%, #2E313C 20%, #2E313C 23%, transparent 23%, transparent 48%, #2E313C 48%, #2E313C 50%, transparent 47%, transparent 76%, #2E313C 76%, #2E313C 78%, transparent 78%), -webkit-linear-gradient(transparent, transparent);
+    background: linear-gradient(to bottom, transparent 0%, transparent 20%, #2E313C 20%, #2E313C 23%, transparent 23%, transparent 48%, #2E313C 48%, #2E313C 50%, transparent 47%, transparent 76%, #2E313C 76%, #2E313C 78%, transparent 78%), linear-gradient(transparent, transparent);
+}
+
+.open_button:active,
+.open_button:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.open_button.clicked {
+    background: -webkit-linear-gradient(135deg, transparent 0%, transparent 48%, #2E313C 49%, #2E313C 51%, transparent 51%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 48%, #2E313C 49%, #2E313C 51%, transparent 51%, transparent 100%);
+    background: linear-gradient(-45deg, transparent 0%, transparent 48%, #2E313C 49%, #2E313C 51%, transparent 51%, transparent 100%), linear-gradient(45deg, transparent 0%, transparent 48%, #2E313C 49%, #2E313C 51%, transparent 51%, transparent 100%);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.open_button.clicked:active,
+.open_button.clicked:hover {
+    -webkit-transform: scale(0.9) rotate(180deg);
+    -ms-transform: scale(0.9) rotate(180deg);
+    transform: scale(0.9) rotate(180deg);
+}
