@@ -1,3 +1,8 @@
+[![React](https://img.shields.io/badge/React-brightgreen.svg?logo=react&style=flat-square)](https://reactjs.org/)
+[![React Router DOM](https://img.shields.io/badge/React%20Router%20DOM-brightgreen.svg?logo=react-router-dom&style=flat-square)](https://reacttraining.com/react-router/)
+[![Firebase](https://img.shields.io/badge/Firebase-brightgreen.svg?logo=firebase&style=flat-square)](https://firebase.google.com/)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](#)
+
 # Cook Recipes
 
 A simple React application to help you manage your favorite recipes. 
@@ -38,5 +43,7 @@ If you don't want to create an account, you can use the following credentials:
 - [Firebase](https://firebase.google.com/)
 
 ## Authors
-
 - Vivien Huc
+
+## License
+This project is licensed under the terms of the MIT license.
