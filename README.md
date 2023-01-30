@@ -1,5 +1,5 @@
 [![React](https://img.shields.io/badge/React-brightgreen.svg?logo=react&style=flat-square)](https://reactjs.org/)
-[![React Router DOM](https://img.shields.io/badge/React%20Router%20DOM-brightgreen.svg?logo=react-router-dom&style=flat-square)](https://reacttraining.com/react-router/)
+[![React Router Dom](https://img.shields.io/badge/React_Router_DOM-brightgreen.svg?logo=React-Router&style=flat-square)](https://reactjs.org/)
 [![Firebase](https://img.shields.io/badge/Firebase-brightgreen.svg?logo=firebase&style=flat-square)](https://firebase.google.com/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](#)
 
